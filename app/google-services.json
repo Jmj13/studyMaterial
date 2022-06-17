@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "341144995670",
+    "project_id": "diplomastudymaterial-e081d",
+    "storage_bucket": "diplomastudymaterial-e081d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341144995670:android:d147ddb9d48fd631a3b8f7",
+        "android_client_info": {
+          "package_name": "com.jagrutijadhav.diplomastudymaterial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341144995670-hsvqhnetvd30ok4s06njdqep6slvlckn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4fPt3iegMujNVycfV1ewIwr642LYNnd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341144995670-hsvqhnetvd30ok4s06njdqep6slvlckn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

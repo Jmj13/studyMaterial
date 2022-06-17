@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    tools:context=".List_Of_Material">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:id="@+id/text"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:padding="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:id="@+id/uploadbutton"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:onClick="UploadFile"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/listview"/>
+
+
+</LinearLayout>

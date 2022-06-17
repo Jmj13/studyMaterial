@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Projectes/DiplomaStudyMaterial/app/src/main/res/layout/activity_list__of__material.xml" value="0.1" />
+        <entry key="..\:/Android Projectes/DiplomaStudyMaterial/app/src/main/res/layout/activity_p_d_f_view.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/DiplomaStudyMaterial/app/src/main/res/layout/activity_list__of__material.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/DiplomaStudyMaterial/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/DiplomaStudyMaterial/app/src/main/res/layout/activity_p_d_f_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/DiplomaStudyMaterial/app/src/main/res/layout/sinlerow.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

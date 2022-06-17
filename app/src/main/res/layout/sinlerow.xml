@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/id_date_time_singlerow"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_baseline_picture_as_pdf_24"
+            android:id="@id/image"/>
+        <TextView
+            android:layout_toRightOf="@+id/image"
+            android:layout_width="match_parent"
+            android:text="file"
+            android:id="@+id/id_file"
+            android:paddingLeft="10dp"
+
+
+
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:layout_below="@+id/id_file"
+            android:layout_width="match_parent"
+            android:text="Time"
+            android:paddingLeft="10dp"
+            android:id="@+id/id_time"
+            android:layout_toRightOf="@+id/image"
+            android:textSize="20dp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:padding="5dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:id="@+id/id_list_delete"
+            android:text="DELETE"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/id_time"
+            android:layout_gravity="right"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20dp"
+
+            android:layout_height="wrap_content"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
